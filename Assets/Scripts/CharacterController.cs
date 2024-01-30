@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = 4f;
     [SerializeField] private float jumpForce = 400f;
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
